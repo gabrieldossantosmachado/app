@@ -3,6 +3,7 @@ import { Text, TextInput, TouchableOpacity, View } from "react-native";
 
 import { useNavigation } from "@react-navigation/native";
 
+
 import styles from "./styles";
 
 function SignIn() {
@@ -26,12 +27,13 @@ function SignIn() {
         />
       </View>
 
+
       <View style={styles.containerButtons}>
         <TouchableOpacity
           onPress={() => navigation.navigate("CadastroChamado")}
           style={[styles.button, { backgroundColor: "#30CA63" }]}
         >
-          <Text style={{ color: "#fff" }}>Acessa</Text>
+          <Text style={{ color: "#fff" }}>Acessar</Text>
         </TouchableOpacity>
       </View>
     </View>

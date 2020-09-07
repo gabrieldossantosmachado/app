@@ -104,6 +104,7 @@ function CadastroChamado() {
                   style={{ fontSize: 18, marginBottom: 10, color: "white" }}
                 >
                   Capturar imagem
+                  
                 </Text>
               </TouchableOpacity>
 
